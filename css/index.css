@@ -6,13 +6,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 2em;
-
 }
 
 #container > .header {
   grid-column: 1/5;
   box-shadow: 2px 2px 2px rgb(238, 238, 238);
-
 }
 
 #envio {
@@ -23,7 +21,7 @@
 #envio p {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 0.6vw;
+  font-size: 10px;
   text-align: center;
   letter-spacing: 4px;
   word-spacing: 5px;
@@ -33,7 +31,6 @@
   margin: 40px 0;
   text-align: center;
 }
-
 
 #nav nav {
   width: 40%;
@@ -55,9 +52,8 @@
   color: black;
   text-decoration: none;
   font-weight: 800;
-  font-size: 0.85vw;
+  font-size: 14px;
 }
-
 
 .opciones {
   display: none;
@@ -105,8 +101,7 @@ li:hover > .opciones {
 
 /*  CONTENIDO */
 
-
-#contenido{
+#contenido {
   display: flex;
   flex-wrap: wrap;
   grid-column: 1/5;
@@ -114,90 +109,81 @@ li:hover > .opciones {
   width: 80%;
   margin: 70px auto;
 }
-.items{
+.items {
   width: 22%;
   margin: 0px 50px 55px 0px;
 }
-.items img{
+.items img {
   width: 100%;
   border: 1px solid rgb(219, 219, 219);
 }
 .items h2 {
-  width: 80%;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.3vw;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
   font-weight: 900;
 }
 
 .items article p {
-  font-size: 1vw;
+  font-size: 15px;
   font-weight: bold;
   margin-right: 5px;
-  font-family:"Roboto", sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
-article a{
+article a {
   color: grey;
-  font-size: 0.8vw;
+  font-size: 13px;
   text-decoration: underline;
 }
 
-
-
 /* FOOTER */
-footer { 
-  background-color: #f3f3f3; 
+footer {
+  background-color: #f3f3f3;
   grid-column: 1/6;
   height: 100%;
 }
 
-
-#footer{
+#footer {
   width: 75%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 50px  0px;
+  padding: 50px 0px;
   margin: 0px auto;
 }
-#footer h4{
+#footer h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  margin-bottom: 25px  ;
+  margin-bottom: 25px;
 }
 
-#redes > nav > ul > li{
+#redes > nav > ul > li {
   margin-bottom: 15px;
   list-style: none;
 }
-#redes > nav > ul{
+#redes > nav > ul {
   padding: 0;
 }
-#redes img{
+#redes img {
   width: 10%;
   margin-right: 5px;
 }
 
-#servicio{
+#servicio {
   width: 22%;
 }
 
-#servicio > nav > ul > li{
+#servicio > nav > ul > li {
   margin-bottom: 8px;
   list-style: none;
 }
-#servicio > nav > ul{
+#servicio > nav > ul {
   padding: 0;
 }
 
-
-
-#footer  > #antonella {
+#footer > #antonella {
   width: 22%;
   margin-right: 50px;
 }
-
-
 
 #cp {
   width: 100%;
@@ -206,14 +192,13 @@ footer {
   text-align: center;
   color: rgb(255, 255, 255);
 }
-#cp > p{
-  
+#cp > p {
   font-family: "Roboto", sans-serif;
- font-size: 0.7vw;
- letter-spacing: 3px;
+  font-size: 0.7vw;
+  letter-spacing: 3px;
 }
-#footer  a, #footer p{
- 
+#footer a,
+#footer p {
   font-family: "Roboto", sans-serif;
   color: rgb(139, 139, 139);
 }
@@ -222,4 +207,3 @@ a:hover {
   color: rgb(129, 129, 129);
   text-decoration: none;
 }
-
